@@ -8,6 +8,20 @@
      *      tags={"$MODEL_NAME$"},
      *      description="Get all $MODEL_NAME_PLURAL$",
      *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="limit",
+     *          in="query",
+     *          type ="integer",
+     *          description="limit",
+     *          required=false,
+     *      ),
+     *       @SWG\Parameter(
+     *          name="offset",
+     *          in="query",
+     *          type ="integer",
+     *          description="offset",
+     *          required=false,
+     *      ),
      *      @SWG\Response(
      *          response=200,
      *          description="successful operation",
