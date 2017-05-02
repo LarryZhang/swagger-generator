@@ -16,10 +16,10 @@
      *          required=false,
      *      ),
      *       @SWG\Parameter(
-     *          name="offset",
+     *          name="page_num",
      *          in="query",
      *          type ="integer",
-     *          description="offset",
+     *          description="page_num",
      *          required=false,
      *      ),
      *      @SWG\Response(
